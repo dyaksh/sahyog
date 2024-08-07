@@ -1,499 +1,662 @@
 <!DOCTYPE html>
-<html lang="en-US" dir="ltr">
+<html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Sahyog Courier Service</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
-
-    <!-- ===============================================-->
-    <!--    Document Title-->
-    <!-- ===============================================-->
-    <title>Sahyog Courier Service</title>
-
-
-    <!-- ===============================================-->
-    <!--    Favicons-->
-    <!-- ===============================================-->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/icon.ico">
+  <!-- Favicons -->
+  
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/sahyog.png">
     
 
-    <!-- ===============================================-->
-    <!--    Stylesheets-->
-    <!-- ===============================================-->
-    <link href="assets/css/theme.css" rel="stylesheet" />
 
-  </head>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
 
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <body>
-    <title>Home | Sahyog Courier Service</title>
-    <!-- ===============================================-->
-    <!--    Main Content-->
-    <!-- ===============================================-->
-    <main class="main" id="top">
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 d-block" data-navbar-on-scroll="data-navbar-on-scroll">
-        <div class="container"><a class="navbar-brand" href="index.html"><b>Sahyog Courier Service</b></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"> </span></button>
-          <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base">
-              <li class="nav-item px-2"><a class="nav-link" aria-current="page" href="index.html" style="font-size: 20px;">Home</a></li>
-              <li class="nav-item px-2"><a class="nav-link" href="#services" style="font-size: 20px;">Our Services</a></li>
-              <li class="nav-item px-2"><a class="nav-link" href="#sendparcel" style="font-size: 20px;">Send Parcel</a></li>
-              <li class="nav-item px-2"><a class="btn btn-primary order-1 order-lg-0 ms-lg-3" href="#find">Find Us</a></li>
-          </ul>
-          </div>
-        </div>
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Sahyog Courier Service</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#why-us">Why Sahyog</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#menu">Send Parcel</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-      <section class="py-xxl-10 pb-0" id="home">
-        <div class="bg-holder bg-size" style="background-image:url(assets/img/gallery/hero-header-bg.png);background-position:top center;background-size:cover;">
-        </div>
-        <!--/.bg-holder-->
+    </div>
+  </header>
 
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-md-5 col-xl-6 col-xxl-7 order-0 order-md-1 text-end"><img class="pt-7 pt-md-0 w-100" src="assets/img/illustrations/hero.png" alt="hero-header" /></div>
-            <div class="col-md-75 col-xl-6 col-xxl-5 text-md-start text-center py-8">
-              <h1 class="fw-normal fs-6 fs-xxl-7">Aapka Sahyog,</h1>
-              <h1 class="fw-bolder fs-6 fs-xxl-7 mb-2">Hamari Safalta.</h1>
-              <p class="fs-1 mb-5">We Empower Our <br><b>Sadharmik Parivar.</b></p><a class="btn btn-primary me-2" href="#sendparcel" role="button">Send Your First Parcel<i class="fas fa-arrow-right ms-2"></i></a>
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
+
+      <div class="container">
+        <div class="row gy-4 justify-content-center justify-content-lg-between">
+          <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h1 data-aos="fade-up">Aapka Sahyog,<br>
+              Hamari Safalta.</h1>
+            <p data-aos="fade-up" data-aos-delay="100">We Empower Our
+              Sadharmik Parivar.</p>
+            <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+              <a href="#book-a-table" class="btn-get-started">Get Started</a>
             </div>
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
+            <img src="assets/img/hero.png" class="img-fluid animated" alt="">
           </div>
         </div>
-      </section>
+      </div>
 
+    </section><!-- /Hero Section -->
 
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section class="py-7" id="services" container-xl="container-xl">
+<!-- About Section -->
+<section id="about" class="about section">
 
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-md-8 col-lg-5 text-center mb-3">
-              <h5 class="text-danger">SERVICES</h5>
-              <h2>What Makes Us Unique?</h2>
-            </div>
-          </div>
-          <div class="row h-100 justify-content-center">
-            <div class="col-md-4 pt-4 px-md-2 px-lg-3">
-              <div class="card h-100 px-lg-5 card-span">
-                <div class="card-body d-flex flex-column justify-content-around">
-                  <div class="text-center pt-5"><img class="img-fluid" src="assets/img/illustrations/Heavy SVG.svg" width="150" alt="..." />
-                    <h5 class="my-4">Delivering Of All Weights Of Parcels</h5>
-                  </div>
-                  <p>We provide delivery of heavy parcels limiting upto more than 500 kilograms.</p>
-                  <ul class="list-unstyled">
-                    <li class="mb-2"><span class="me-2"><i class="fas fa-circle text-primary" style="font-size:.5rem"></i></span>100 kilograms
-                    </li>
-                    <li class="mb-2"><span class="me-2"><i class="fas fa-circle text-primary" style="font-size:.5rem"></i></span>250 kilograms
-                    </li>
-                    <li class="mb-2"><span class="me-2"><i class="fas fa-circle text-primary" style="font-size:.5rem"></i></span>500 kilograms
-                    </li>
-                  </ul>
-                  <div class="text-center my-5">
-                    <div class="d-grid">
-                      <a href="#sendparcel"><button class="btn btn-outline-danger" type="submit">Send Parcel </button></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 pt-4 px-md-2 px-lg-3">
-              <div class="card h-100 px-lg-5 card-span">
-                <div class="card-body d-flex flex-column justify-content-around">
-                  <div class="text-center pt-5"><img class="img-fluid" src="assets/img/illustrations/Safe Delivery SVG.svg" width="500" alt="..." />
-                    <h5 class="my-4">Safe Delivery <br> Of All The Parcels</h5>
-                  </div>
-                  <p>We handle all your parcels with care and deliver them safely without any damage.</p>
-                  <ul class="list-unstyled">
-                    <li class="mb-2"><span class="me-2"><i class="fas fa-circle text-primary" style="font-size:.5rem"></i></span>Utmost care of your parcel
-                    </li>
-                    <li class="mb-2"><span class="me-2"><i class="fas fa-circle text-primary" style="font-size:.5rem"></i></span>No damage to parcel
-                    </li>
-                    <li class="mb-2"><span class="me-2"><i class="fas fa-circle text-primary" style="font-size:.5rem"></i></span>Quality of product maintained
-                    </li>
-                  </ul>
-                  <div class="text-center my-5">
-                    <div class="d-grid">
-                      <a href="#sendparcel"><button class="btn btn-danger hover-top btn-glow border-0" type="submit">Send Parcel</button></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 pt-4 px-md-2 px-lg-3">
-              <div class="card h-100 px-lg-5 card-span">
-                <div class="card-body d-flex flex-column justify-content-around">
-                  <div class="text-center pt-5"><img class="img-fluid" src="assets/img/illustrations/Time Delivery SVG.svg" width="120" alt="..." />
-                    <h5 class="my-4">Timely Delivery <br> Of All Parcels</h5>
-                  </div>
-                  <p>Superfast delivery of all the parcels with utmost care of the product inside.</p>
-                  <ul class="list-unstyled">
-                    <li class="mb-2"><span class="me-2"><i class="fas fa-circle text-primary" style="font-size:.5rem"></i></span>Fast Delivery
-                    </li>
-                    <li class="mb-2"><span class="me-2"><i class="fas fa-circle text-primary" style="font-size:.5rem"></i></span>Care of parcel
-                    </li>
-                    <li class="mb-2"><span class="me-2"><i class="fas fa-circle text-primary" style="font-size:.5rem"></i></span>Best for urgent parcels
-                    </li>
-                  </ul>
-                  <div class="text-center my-5">
-                    <div class="d-grid">
-                      <a href="#sendparcel"><button class="btn btn-outline-danger" type="submit">Send Parcel</button></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>About Us<br></h2>
+    <p><span>Learn More</span> <span class="description-title">About Sahyog</span></p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="content">
+          <p class="fst-italic">
+            At Sahyog Courier Service, we are dedicated to delivering excellence with compassion and integrity, embodying our core values inspired by Jain principles.
+          </p>
+          <ul>
+            <li><i class="bi bi-check-circle-fill"></i> <span>Commitment to ethical and reliable courier services.</span></li>
+            <li><i class="bi bi-check-circle-fill"></i> <span>Focused on community welfare and environmental sustainability.</span></li>
+            <li><i class="bi bi-check-circle-fill"></i> <span>Personalized service to meet the unique needs of every client.</span></li>
+          </ul>
+          <p>
+            Our mission is to provide timely and secure deliveries while contributing positively to our community. We blend traditional values with modern efficiency to ensure your needs are met with the highest standards of service.
+          </p>
+          <div class="video-link">
+            <a href="https://youtu.be/H1iPxu-6iDs" target="_blank">
+              <img src="assets/img/GroupPic.jpg" style="width: 100%; height: auto; max-width: 700px;" alt="Watch our video on YouTube">
+            </a>
           </div>
         </div>
-        <!-- end of .container-->
+      </div>
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
+        <img src="assets/img/about.png" style="width: 100%; height: auto; max-width: 700px;" alt="Sahyog Courier Service">
+      </div>
+    </div>
+  </div>
 
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
-
-
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section class="pt-7 pb-0">
-
-        <div class="container">
-          <div class="row">
-            <div class="col-6 col-lg mb-5">
-              <div class="text-center"><img src="assets/img/icons/awards.png" alt="..." />
-                <h1 class="text-primary mt-4">20K+</h1>
-                <h5 class="text-800">Parcels Delivered</h5>
-              </div>
-            </div>
-            <div class="col-6 col-lg mb-5">
-              <div class="text-center"><img src="assets/img/icons/states.png" alt="..." />
-                <h1 class="text-primary mt-4">5+</h1>
-                <h5 class="text-800">States Covered</h5>
-              </div>
-            </div>
-            <div class="col-6 col-lg mb-5">
-              <div class="text-center"><img src="assets/img/icons/clients.png" alt="..." />
-                <h1 class="text-primary mt-4">90+</h1>
-                <h5 class="text-800">Karyakartas Benefited From Us So Far</h5>
-              </div>
-            </div>
-            <div class="col-6 col-lg mb-5">
-              <div class="text-center"><img src="assets/img/icons/goods.png" alt="..." />
-                <h1 class="text-primary mt-4">20K+</h1>
-                <h5 class="text-800">Parcels Delivered Till Date</h5>
-              </div>
-            </div>
-            <div class="col-6 col-lg mb-5">
-              <div class="text-center"><img src="assets/img/icons/business.png" alt="..." />
-                <h1 class="text-primary mt-4">1.5 Years</h1>
-                <h5 class="text-800">Of Experience</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end of .container-->
-
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
+</section><!-- /About Section -->
 
 
+    <!-- Why Us Section -->
+    <section id="why-us" class="why-us section light-background">
 
+      <div class="container">
 
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section>
+        <div class="row gy-4">
 
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="card bg-dark text-white py-4 py-sm-0"><img class="w-100" src="assets/img/gallery/GroupPic.jpg" alt="video"  />
-                <div class="card-img-overlay bg-dark-gradient d-flex flex-column flex-center"><img src="assets/img/icons/play.png" width="80" alt="play" />
-                  <h5 class="text-primary">Aapka Sahyog Hamari Safalta</h5>
-                  <p class="text-center">We are a non profit organization<br class="d-none d-sm-block" />focused on empowering our Sadharmik Parivar.</p><a class="stretched-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"></a>
-                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg modal-dialog-centered">
-                      <div class="modal-content overflow-hidden">
-                        <div class="modal-header p-0">
-                          <div class="ratio ratio-16x9" id="exampleModalLabel">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/H1iPxu-6iDs?si=A9rhavOj8zSdWlRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                          </div>
-                        </div>
-                        <div class="modal-footer">
-                          <button class="btn btn-primary" type="button" data-bs-dismiss="modal">Close</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end of .container-->
-
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
-
-
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section id="sendparcel" class="py-7">
-
-        <div class="container-fluid">
-          <div class="row flex-center">
-            <div class="bg-holder bg-size">
-            </div>
-            <!--/.bg-holder-->
-
-            <div class="col-md-8 col-lg-5 text-center">
-              <h5 class="text-danger">Send Parcel</h5>
-              <h2>Fill The Form Below</h2>
-            </div>
-          </div>
-          
-        <!-- end of .container-->
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-md-6 col-lg-5 col-xl-4"><img src="assets/img/illustrations/delivery svg.svg" width="400" alt="..." />
-              <h5 class="text-danger">Book A Delivery</h5>
-              <h2>We will recachout in the shortest time.</h2> <br><br>
-              <p class="text-muted">Note:-
-                <ul style="list-style-type: square;">
-                  <li>Enter full name of sender and receiver.</li>
-                  <li>Enter two contact number for receivcer in note if applicable.</li>
-                  <li>Enter precise and correct address for accurate and faster delivery.</li>
-                </ul>
-                <b><u>We Strive To Serve Quality Delivery</u></b>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="why-box">
+              <h3>Why Choose Sahyog Courier Service</h3>
+              <p>
+                At Sahyog Courier Service, our commitment to excellence and adherence to Jain values make us the preferred choice for reliable and compassionate courier solutions. We ensure timely deliveries with a focus on community welfare and ethical practices.
               </p>
+              <div class="text-center">
+                <a href="#" class="more-btn"><span>Learn More</span> <i class="bi bi-chevron-right"></i></a>
+              </div>
             </div>
-            <div class="col-md-6 col-lg-5 col-xl-4">
-              <form class="row" action="https://formspree.io/f/xanwqywr" method="POST">
-                <div class="mb-3">
-                  <h4>Sender Details</h4>
-                  <label class="form-label visually-hidden" for="inputName">Enter Your Name</label>
-                  <input class="form-control form-quriar-control" id="inputName" type="text" placeholder="Name" name="Sender's Name" required />
+          </div><!-- End Why Box -->
+
+          <div class="col-lg-8 d-flex align-items-stretch">
+            <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="col-xl-4">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-heart"></i>
+                  <h4>Ethical Practices</h4>
+                  <p>We prioritize ethical practices and integrity in every aspect of our operations, ensuring trust and transparency.</p>
                 </div>
-                <div class="mb-3">
-                  <label class="form-label visually-hidden" for="inputName">Enter Your Contact Number</label>
-                  <input class="form-control form-quriar-control" id="inputName" type="number" placeholder="Contact Number" name="Sender's Contact Number" required />
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-truck"></i>
+                  <h4>Reliable Delivery</h4>
+                  <p>Our state-of-the-art logistics and dedicated team guarantee timely and reliable delivery of all your parcels.</p>
                 </div>
-                <div class="mb-3">
-                  <label class="form-label visually-hidden" for="inputName">Weight Of Parcel</label>
-                  <input class="form-control form-quriar-control" id="inputName" type="number" placeholder="Weight Of Parcel (in kg)" name="Weight Of Parcel" required />
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-people"></i>
+                  <h4>Community Focused</h4>
+                  <p>We are deeply committed to supporting and uplifting our community, integrating social responsibility into our services.</p>
                 </div>
-                <div class="mb-5">
-                  <label class="form-label visually-hidden" for="validationTextarea">Sender Address</label>
-                  <textarea class="form-control form-quriar-control is-invalid border-400" id="validationTextarea" placeholder="Sender Address" name="Sender Address" style="height: 150px" required="required"></textarea>
+              </div><!-- End Icon Box -->
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Why Us Section -->
+
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 align-items-center">
+          <div class="col-lg-5">
+            <img src="assets/img/stats.png" alt="Stats Image" class="img-fluid">
+          </div>
+          <div class="col-lg-7">
+            <div class="row gy-4">
+              <div class="col-lg-6">
+                <div class="stats-item d-flex align-items-center">
+                  <i class="bi bi-truck flex-shrink-0"></i>
+                  <div class="ms-3">
+                    <div class="number-container d-flex align-items-center">
+                      <span class="purecounter" data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1">20K</span>
+                      <span class="plus-sign">K +</span>
+                    </div>
+                    <p class="mb-0"><strong>Parcels Delivered</strong> <span>Ensuring timely and secure delivery of every parcel</span></p>
+                  </div>
                 </div>
-                <div class="mb-3">
-                  <h4>Receiver Details</h4>
-                  <label class="form-label visually-hidden" for="inputName">Enter Your Name</label>
-                  <input class="form-control form-quriar-control" id="inputName" type="text" placeholder="Name" name="Receiver Name" required />
+              </div>
+              <div class="col-lg-6">
+                <div class="stats-item d-flex align-items-center">
+                  <i class="bi bi-map flex-shrink-0"></i>
+                  <div class="ms-3">
+                    <div class="number-container d-flex align-items-center">
+                      <span class="purecounter" data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1">5</span>
+                      <span class="plus-sign">+</span>
+                    </div>
+                    <p class="mb-0"><strong>States Covered</strong> <span>Extending our reach to multiple regions</span></p>
+                  </div>
                 </div>
-                <div class="mb-3">
-                  <label class="form-label visually-hidden" for="inputName">Enter Your Contact Number</label>
-                  <input class="form-control form-quriar-control" id="inputName" type="number" placeholder="Contact Number" name="Receiver Contact" required />
+              </div>
+              <div class="col-lg-6">
+                <div class="stats-item d-flex align-items-center">
+                  <i class="bi bi-people flex-shrink-0"></i>
+                  <div class="ms-3">
+                    <div class="number-container d-flex align-items-center">
+                      <span class="purecounter" data-purecounter-start="0" data-purecounter-end="90" data-purecounter-duration="1">90</span>
+                      <span class="plus-sign">+</span>
+                    </div>
+                    <p class="mb-0"><strong>Karyakartas Benefited From Us So Far</strong> <span>Supporting and empowering our dedicated team members</span></p>
+                  </div>
                 </div>
-                <div class="mb-3">
-                  <label class="form-label visually-hidden" for="inputName">Special Note</label>
-                  <input class="form-control form-quriar-control" id="inputName" type="text" placeholder="Special Note (if any)" name="Special Note" />
+              </div>
+              <div class="col-lg-6">
+                <div class="stats-item d-flex align-items-center">
+                  <i class="bi bi-calendar flex-shrink-0"></i>
+                  <div class="ms-3">
+                    <div class="number-container d-flex align-items-center">
+                      <span class="purecounter" data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1">1.5 Years</span>
+                      <span class="plus-sign">Years</span>
+                    </div>
+                    <p class="mb-0"><strong>Of Experience</strong> <span>Bringing valuable experience and expertise to every delivery</span></p>
+                  </div>
                 </div>
-                <div class="mb-5">
-                  <label class="form-label visually-hidden" for="validationTextarea">Receiver Address</label>
-                  <textarea class="form-control form-quriar-control is-invalid border-400" id="validationTextarea" placeholder="Receiver Address" name="receiveraddress" style="height: 150px" required="required"></textarea>
-                </div>
-                <div class="d-grid">
-                  <button class="btn btn-primary" type="submit">Place Request<i class="fas fa-paper-plane ms-2"></i></button>
-                </div>
-              </form>
+              </div>
             </div>
           </div>
         </div>
-        <!-- end of .container-->
+      </div>
+    </section><!-- /Stats Section->
 
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
+    <!-- Services Section -->
+    <section id="services" class="services section">
 
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p><span>Our</span> <span class="description-title">Professional Services<br></span></p>
+      </div><!-- End Section Title -->
 
+      <div class="container">
 
+        <div class="row gy-4">
 
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-        <section id="find">
-
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-md-8 col-lg-5 mb-6 text-center">
-                <h5 class="text-danger">FIND US</h5>
-                <h2>Access us easily</h2>
+          <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item">
+              <div class="service-icon">
+                <img src="assets/img/services1.png" class="img-fluid" alt="">
               </div>
-              <div class="col-12">
-                <div class="card card-span rounded-2 mb-3">
+              <div class="service-info">
+                <h4>Delivering Of All Weights Of Parcels</h4>
+                <span>We provide delivery of heavy parcels limiting up to more than 500 kilograms.</span>
+                <p>
+                  <ul>
+                    <li>100 kilograms</li>
+                    <li>250 kilograms</li>
+                    <li>500 kilograms</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item">
+              <div class="service-icon">
+                <img src="assets/img/services2.png" class="img-fluid" alt="">
+              </div>
+              <div class="service-info">
+                <h4>Safe Delivery Of All The Parcels</h4>
+                <span>We handle all your parcels with care and deliver them safely without any damage.</span>
+                <p>
+                  <ul>
+                    <li>Utmost care of your parcel</li>
+                    <li>No damage to parcel</li>
+                    <li>Quality of product maintained</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item">
+              <div class="service-icon">
+                <img src="assets/img/services3.png" class="img-fluid" alt="">
+              </div>
+              <div class="service-info">
+                <h4>Timely Delivery Of All Parcels</h4>
+                <span>Superfast delivery of all the parcels with utmost care of the product inside.</span>
+                <p>
+                  <ul>
+                    <li>Fast Delivery</li>
+                    <li>Care of parcel</li>
+                    <li>Best for urgent parcels</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Parcel</h2>
+        <p><span>Use Our</span> <span class="description-title">Parcel Service</span></p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+
+          <li class="nav-item">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-sender">
+              <h4>Sender</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-receiver">
+              <h4>Receiver</h4>
+            </a><!-- End tab nav item -->
+          </li>
+
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="tab-pane fade active show" id="menu-sender">
+
+            <div class="tab-header text-center">
+              <p>Parcel Service</p>
+              <h3>Sender Form</h3>
+            </div>
+
+            <div class="row gy-5">
+              <div class="col-lg-12">
+                <form>
                   <div class="row">
-                    <div class="col-md-6 col-lg-7 d-flex"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30136.972702940657!2d72.83927985000001!3d19.23353205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b0ce3cd117f7%3A0x515d558b955bf692!2sBorivali%20West%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1721209926480!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-                    <div class="col-md-6 col-lg-5 d-flex flex-center">
-                      <div class="card-body">
-                        <h5>Reach Out To Us</h5>
-                        <p class="text-700 my-4"> <i class="fas fa-map-marker-alt text-warning me-3"></i><span>Borivali West, Mumbai, 400092.</span></p>
-                        <p><i class="fas fa-phone-alt text-warning me-3"></i><span class="text-700">Monday - Saturday: 9 am - 6 pm</span></p>
-                        <p><i class="fas fa-envelope text-warning me-3"> </i>sahyogkaryakartaparivaar@gmail.com</p>
-                        <ul class="list-unstyled list-inline mt-5">
-                          <li class="list-inline-item"><a class="text-decoration-none" href="https://youtube.com/@sahyogcourierservice?si=dhB0CvojKu9YzVR6" target="_blank"><i class="fab fa-youtube-square fs-2"></i></a></li>
-                          <li class="list-inline-item"><a class="text-decoration-none" href="https://www.instagram.com/skp_mumbai?igsh=ajJ3MzBvb21uNDVs" target="_blank"><i class="fab fa-instagram-square fs-2"></i></a></li>
-                          <li class="list-inline-item"><a class="text-decoration-none" href="https://x.com/SKP_MUMBAI_?t=cq02ImkZnPS3VTaXbGWTpQ&s=09" target="_blank"><i class="fab fa-twitter-square fs-2"></i></a></li>
-                        </ul>
-                      </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="sender-name" class="form-label">Name</label>
+                      <input type="text" class="form-control" id="sender-name" placeholder="Sender's Name" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="sender-email" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="sender-email" placeholder="Sender's Email" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="sender-address" class="form-label">Address</label>
+                      <input type="text" class="form-control" id="sender-address" placeholder="Sender's Address" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="sender-phone" class="form-label">Phone</label>
+                      <input type="tel" class="form-control" id="sender-phone" placeholder="Sender's Phone" required>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                      <label for="sender-message" class="form-label">Message</label>
+                      <textarea class="form-control" id="sender-message" rows="4" placeholder="Message to Receiver" required></textarea>
+                    </div>
+                    <div class="col-md-12">
+                      <button type="submit" class="btn btn-primary">Send Parcel</button>
                     </div>
                   </div>
+                </form>
+              </div>
+            </div>
+
+          </div><!-- End Sender Form -->
+
+          <div class="tab-pane fade" id="menu-receiver">
+
+            <div class="tab-header text-center">
+              <p>Parcel Service</p>
+              <h3>Receiver Form</h3>
+            </div>
+
+            <div class="row gy-5">
+              <div class="col-lg-12">
+                <form>
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <label for="receiver-name" class="form-label">Name</label>
+                      <input type="text" class="form-control" id="receiver-name" placeholder="Receiver's Name" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="receiver-email" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="receiver-email" placeholder="Receiver's Email" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="receiver-address" class="form-label">Address</label>
+                      <input type="text" class="form-control" id="receiver-address" placeholder="Receiver's Address" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="receiver-phone" class="form-label">Phone</label>
+                      <input type="tel" class="form-control" id="receiver-phone" placeholder="Receiver's Phone" required>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                      <label for="receiver-message" class="form-label">Message</label>
+                      <textarea class="form-control" id="receiver-message" rows="4" placeholder="Message from Sender" required></textarea>
+                    </div>
+                    <div class="col-md-12">
+                      <button type="submit" class="btn btn-primary">Receive Parcel</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+          </div><!-- End Receiver Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Menu Section -->
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p><span>Need Help?</span> <span class="description-title">Contact Us</span></p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+          <li class="nav-item">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#contact-form">
+              <h4>Contact Form</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#contact-info">
+              <h4>Info</h4>
+            </a><!-- End tab nav item -->
+          </li>
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+          <div class="tab-pane fade active show" id="contact-form">
+            <div class="tab-header text-center">
+
+              <h3>Contact  us</h3>
+            </div>
+            <div class="row gy-5">
+              <div class="col-lg-12">
+                <form action="forms/contact.php" method="post" class="php-email-form">
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                      <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                      <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                    </div>
+                    <div class="col-md-12 text-center">
+                      <button type="submit" class="btn btn-primary">Send Message</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div><!-- End Contact Form -->
+
+          <div class="tab-pane fade" id="contact-info">
+            <div class="tab-header text-center">
+        
+              <h3>Our Info</h3>
+            </div>
+            <div class="row gy-5">
+              <div class="col-md-6">
+                <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+                  <i class="icon bi bi-geo-alt flex-shrink-0"></i>
+                  <div>
+                    <h3>Address</h3>
+                    <p>Borivali West, Mumbai, 400092.</p>
+                  </div>
                 </div>
-                <div class="text-center">
-                  <a class="text-light" href="https://wa.me/9076078071" target="_blank"><button class="btn btn-primary px-5" type="submit"><i class="fi fi-brands-whatsapp"></i>Click Here To Book A Delivery</a></button>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
+                  <i class="icon bi bi-telephone flex-shrink-0"></i>
+                  <div>
+                    <h3>Call Us</h3>
+                    <p>+1 5589 55488 55</p>
+                  </div>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="400">
+                  <i class="icon bi bi-envelope flex-shrink-0"></i>
+                  <div>
+                    <h3>Email Us</h3>
+                    <p>sahyogkaryakartaparivaar@gmail.com</p>
+                  </div>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="500">
+                  <i class="icon bi bi-clock flex-shrink-0"></i>
+                  <div>
+                    <h3>Opening Hours</h3>
+                    <p><strong>Mon-Sat:</strong> 09AM - 06PM; <strong>Sunday:</strong> Closed</p>
+                  </div>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-12" data-aos="fade-up" data-aos-delay="600">
+                <div class="iframe-container">
+                  <iframe style=" width:100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.407092889074!2d72.84928031526988!3d19.21496438699882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b78601d7bdf9%3A0x5756d6d89b19c291!2sBorivali%20West%2C%20Mumbai%2C%20Maharashtra%20400092%2C%20India!5e0!3m2!1sen!2sus!4v1628109722546!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
               </div>
             </div>
+          </div><!-- End Contact Info -->
+        </div>
+      </div>
+    </section><!-- /Contact Section -->
+
+
+      <!-- Work With Us Section -->
+    <section id="work-with-us" class="work-with-us section">
+      <div class="container" data-aos="fade-up">
+        <!-- Section Title -->
+        <div class="section-title">
+          <h2>Work With Us</h2>
+          <p>Be a part of our mission of empowering our sadharmik brothers and sisters.</p>
+        </div><!-- End Section Title -->
+
+        <form action="forms/work-with-us.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-md-6 d-flex flex-column">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+            </div>
+
+            <div class="col-md-6 d-flex flex-column">          <input type="text" name="contact" class="form-control" placeholder="Your Contact Number" required="">
+            </div>
+            
+            <div class="col-md-12 text-center">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+
+              <button type="submit">Submit</button>
+            </div>
           </div>
-          <!-- end of .container-->
+        </form><!-- End Work With Us Form -->
+
+      </div>
+    </section><!-- /Work With Us Section -->
+
+
+
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container">
+      <div class="row gy-3">
+
+        <div class="col-lg-3 col-md-6">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#">Maharaj Saheb Parcels</a></li>
+            <li><a href="#">Gifts</a></li>
+            <li><a href="#">All Other Types Of Goods</a></li>
+          </ul>
+        </div>
+     
   
-        </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
-
-
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section class="bg-1000">
-
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
-              <h2 class="fw-bold text-white">Work With Us</h2>
-              <p class="text-300">Be a part of our mission of empowering our <br> sadharmik brothers and sisters.</p>
-            </div>
-            <div class="col-lg-6">
-              <h5 class="text-primary mb-3">Fill Below To Work With Us </h5>
-              <form class="row gx-2 gy-2 align-items-center" action="https://formspree.io/f/mzzpdbbd" method="POST">
-                <div class="col">
-                  <div class="input-group-icon">
-                    <label class="visually-hidden" for="inputEmailCta">Name</label>
-                    <input class="form-control input-box form-quriar-control text-light" type="text" placeholder="Name" name="Applicant Name" />
-                  </div>
-                </div>
-                <div class="d-grid gap-3 col-sm-auto">
-                  <label class="visually-hidden" for="inputEmailCta">Contact</label>
-                    <input class="form-control input-box form-quriar-control text-light" type="tel" placeholder="Contact Number" name="Applicant Contact Number" />
-                </div>
-                <div>
-                  <button class="btn btn-danger" type="submit">Submit</button>
-                </div>
-              </form>
-            </div>
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4>Contact</h4>
+            <p>
+              <a href="#"><strong>Whatsapp</strong></a><br>
+              <a href="#"><strong>Instagram</strong></a><br>
+            </p>
           </div>
         </div>
-
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
-
-
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section class="bg-900 pb-0 pt-5">
-
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-sm-12 col-lg-6 mb-4 order-0 order-sm-0"><a class="text-decoration-none" href="index.html"><img src="assets/img/gallery/com_logo-900w.png" width="225"  alt="" /></a>
-              <p class="text-500 my-4">Aapka Sahyog,<br />Hamari Safalta.</p>
-            </div>
-            <div class="col-6 col-sm-4 col-lg-2 mb-3 order-2 order-sm-1">
-              <h5 class="lh-lg fw-bold mb-4 text-light font-sans-serif">Other links </h5>
-              <ul class="list-unstyled mb-md-4 mb-lg-0">
-                <li class="lh-lg"><a class="text-500" href="https://youtube.com/@sahyogcourierservice?si=dhB0CvojKu9YzVR6">Youtube</a></li>
-                <li class="lh-lg"><a class="text-500" href="https://www.instagram.com/skp_mumbai?igsh=ajJ3MzBvb21uNDVs">Instagram</a></li>
-                <li class="lh-lg"><a class="text-500" href="https://x.com/SKP_MUMBAI_?t=cq02ImkZnPS3VTaXbGWTpQ&s=09">X</a></li>
-              </ul>
-            </div>
-            <div class="col-6 col-sm-4 col-lg-2 mb-3 order-3 order-sm-2">
-              <h5 class="lh-lg fw-bold text-light mb-4 font-sans-serif">Services</h5>
-              <ul class="list-unstyled mb-md-4 mb-lg-0">
-                <li class="lh-lg"><a class="text-500" href="#sendparcel">Maharaj Saheb Parcels</a></li>
-                <li class="lh-lg"><a class="text-500" href="#sendparcel">Gifts</a></li>
-                <li class="lh-lg"><a class="text-500" href="#sendparcel">All Other Types Of Goods</a></li>
-              </ul>
-            </div>
-            <div class="col-6 col-sm-4 col-lg-2 mb-3 order-3 order-sm-2">
-              <h5 class="lh-lg fw-bold text-light mb-4 font-sans-serif">Customer Care</h5>
-              <ul class="list-unstyled mb-md-4 mb-lg-0">
-                <li class="lh-lg"><a class="text-500" href="https://wa.me/9076078071" target="_blank">Whatsapp</a></li>
-                <li class="lh-lg"><a class="text-500" href="www.instagram.com/skp_mumbai?igsh=ajJ3MzBvb21uNDVs" target="_blank">Instagram</a></li>
-              </ul>
-            </div>
+  
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-clock icon"></i>
+          <div>
+            <h4>Opening Hours</h4>
+            <p>
+              <strong>Mon-Sat:</strong> <span>11AM - 23PM</span><br>
+              <strong>Sunday</strong>: <span>Closed</span>
+            </p>
           </div>
         </div>
-        <!-- end of .container-->
-
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
-
-
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section class="py-0 bg-1000">
-
-        <div class="container">
-          <div class="row justify-content-md-between justify-content-evenly py-4">
-            <div class="col-12 col-sm-8 col-md-6 col-lg-auto text-center text-md-start">
-              <p class="fs--1 my-2 fw-bold text-200">All rights Reserved &copy; Sahyog Courier Service, 2024</p>
-            </div>
-            <div class="col-12 col-sm-8 col-md-6">
-              <p class="fs--1 my-2 text-center text-md-end text-200"> Made with&nbsp;
-                <svg class="bi bi-suit-heart-fill" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="#F95C19" viewBox="0 0 16 16">
-                  <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"></path>
-                </svg>&nbsp;by&nbsp;<a class="fw-bold text-primary" href="https://mesh-digital-services.netlify.app/" target="_blank">MeSh Digital Services </a>
-              </p>
-            </div>
+  
+        <div class="col-lg-3 col-md-6">
+          <h4>Follow Us</h4>
+          <div class="social-links d-flex">
+            <a href="#" class="youtube"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="x"><i class="bi bi-x"></i></a>
           </div>
         </div>
-        <!-- end of .container-->
+      </div>
+    </div>
+  
 
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
+  
+    <div class="container copyright text-center mt-4">
+      <p>All rights Reserved © Sahyog Courier Service, 2024</p>
+      <div class="credits">
+        Made with <i class="bi bi-heart"></i> by <a href="https://mesh.digital">MeSh Digital Services</a>
+      </div>
+    </div>
+  </footer>
+  
 
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-    </main>
-    <!-- ===============================================-->
-    <!--    End of Main Content-->
-    <!-- ===============================================-->
+  <!-- Preloader -->
+  <div id="preloader"></div>
 
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
 
-
-    <!-- ===============================================-->
-    <!--    JavaScripts-->
-    <!-- ===============================================-->
-    <script src="vendors/@popperjs/popper.min.js"></script>
-    <script src="vendors/bootstrap/bootstrap.min.js"></script>
-    <script src="vendors/is/is.min.js"></script>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
-    <script src="vendors/fontawesome/all.min.js"></script>
-    <script src="assets/js/theme.js"></script>
-
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
-  </body>
+</body>
 
 </html>
